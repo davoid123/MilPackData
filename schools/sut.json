@@ -10,7 +10,7 @@
       "items": [
 
         {
-          "id": "sut-cif0",
+          "id": "sut-cif1",
           "name": "Fighting Load Carrier (FLC)",
           "description": "CIF-issued Fighting Load Carrier. Name Tape will be sewn on the rear drag handle of the FLC.",
           "quantity": 1,
@@ -35,7 +35,7 @@
         },
 
         {
-          "id": "sut-cif1",
+          "id": "sut-cif2",
           "name": "Canteen (1QT)",
           "description": "1 Quart Canteens",
           "quantity": 2,
@@ -60,7 +60,7 @@
         },
 
         {
-          "id": "sut-cif2",
+          "id": "sut-cif3",
           "name": "First Aid/IFAK Case",
           "description": "OCP IFAK Case",
           "quantity": 1,
@@ -110,7 +110,7 @@
         },
 
         {
-          "id": "sut-cif3",
+          "id": "sut-cif30",
           "name": "Compass, Magnetic with Case",
           "description": "CIF-issued magnetic compass (2 required)",
           "quantity": 2,
@@ -629,7 +629,7 @@
       "items": [
 
         {
-          "id": "sut-p0",
+          "id": "sut-p5",
           "name": "Substitute or Civilian Items",
           "description": "Any substitute or civilian items of equipment to include items issued by previous commands are not authorized unless specified.",
           "quantity": 0,
