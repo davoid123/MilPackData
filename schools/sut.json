@@ -557,10 +557,33 @@
             }
           ]
         },
-
         {
           "id": "sut-o6",
           "name": "This is a test",
+          "description": "STest 123 456 234 Hello jimmy I really think this is cool.",
+          "quantity": 2,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Hello this is a normal test. Nothing to see here 123.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "test",
+              "name": "This is a test of the store",
+              "price": "$69.99",
+              "url": "https://www.google.com",
+              "imageKey": "key",
+              "reason": "I dont know what this code does."
+            }
+          ]
+        },
+        {
+          "id": "sut-o7",
+          "name": "This is a test part 2",
           "description": "STest 123 456 234 Hello jimmy I really think this is cool.",
           "quantity": 2,
           "category": "optional",
