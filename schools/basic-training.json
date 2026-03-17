@@ -1,0 +1,220 @@
+{
+  "version": "1.0.0",
+  "schemaVersion": 1,
+  "id": "basic-training",
+  "categories": [
+    {
+      "id": "bct-required",
+      "type": "required",
+      "label": "Required Items",
+      "items": [
+        {
+          "id": "bct-r1",
+          "name": "Government-Issued Items",
+          "description": "All items issued at reception",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "The Army issues everything you need. Don't bring more than allowed.",
+          "selectionTips": "Do not purchase uniforms or boots before arrival — wait to be issued.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "bct-r2",
+          "name": "Personal Hygiene Kit",
+          "description": "Basic toiletries (razor, deodorant, toothbrush, etc.)",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Hygiene standards are strictly enforced.",
+          "selectionTips": "Unscented deodorant. Travel-size everything. No aerosols.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "hygiene-1",
+              "name": "Army Basic Training Hygiene Kit",
+              "price": "$29.99",
+              "url": "https://www.amazon.com/dp/B07VRDMPBT",
+              "imageKey": null,
+              "reason": "Pre-assembled to BCT standards so you pass hygiene inspections from day one without guessing what to bring."
+            }
+          ]
+        },
+        {
+          "id": "bct-r3",
+          "name": "Athletic Socks (White)",
+          "description": "Plain white crew athletic socks",
+          "quantity": 10,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for PT uniform.",
+          "selectionTips": "Bring at least 10 pairs. Cotton blends or moisture-wicking.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "socks-bct",
+              "name": "Darn Tough Tactical Micro Crew",
+              "price": "$22.95",
+              "url": "https://www.amazon.com/dp/B076B2JKPC",
+              "imageKey": "socks",
+              "reason": "Merino wool blend lasts 3× longer than cotton and wicks moisture continuously — dramatically reducing blister risk during daily PT and ruck marches."
+            }
+          ]
+        },
+        {
+          "id": "bct-r4",
+          "name": "Small Lock (Combination)",
+          "description": "Combination padlock for wall locker",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required to secure your wall locker and sensitive items.",
+          "selectionTips": "Combination only — no key locks. Memorize the combination.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "bct-r5",
+          "name": "Civilian ID and Documents",
+          "description": "Social security card, birth certificate, state ID",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for in-processing and DEERS enrollment.",
+          "selectionTips": "Bring originals in a sealed envelope. They will be collected and secured.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    },
+    {
+      "id": "bct-optional",
+      "type": "optional",
+      "label": "Recommended Items",
+      "items": [
+        {
+          "id": "bct-o1",
+          "name": "Foot Powder",
+          "description": "Gold Bond or similar anti-fungal foot powder",
+          "quantity": 2,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Use daily after showers. Prevents athlete's foot and trench foot.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "bct-o2",
+          "name": "Running Insoles",
+          "description": "Cushioned insoles for military boots",
+          "quantity": 2,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Superfeet or Sof Sole are popular choices. Reduce shin splints.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "insole-1",
+              "name": "Superfeet Green Insoles",
+              "price": "$54.95",
+              "url": "https://www.amazon.com/dp/B000G7JJT0",
+              "imageKey": null,
+              "reason": "Reduces heel strike impact by up to 40% on hard surfaces — critical for standing at attention on concrete and during long marches."
+            }
+          ]
+        },
+        {
+          "id": "bct-o3",
+          "name": "Writing Supplies",
+          "description": "Stamps, envelopes, and writing paper",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Write letters home. Physical mail is the main communication.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    },
+    {
+      "id": "bct-prohibited",
+      "type": "prohibited",
+      "label": "Prohibited Items",
+      "items": [
+        {
+          "id": "bct-p1",
+          "name": "Cell Phone",
+          "description": "Personal mobile devices",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Phones allowed only during designated times, not during training.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "bct-p2",
+          "name": "Civilian Clothing",
+          "description": "Non-military attire",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Not permitted during training. Can be stored or shipped home.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "bct-p3",
+          "name": "Excessive Cash",
+          "description": "More than $50 in cash",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Bring a debit card. Keep it secured in your wall locker.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    }
+  ]
+}

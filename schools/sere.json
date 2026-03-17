@@ -1,0 +1,630 @@
+{
+  "version": "1.0.0",
+  "schemaVersion": 1,
+  "id": "sut",
+  "categories": [
+    {
+      "id": "sut-cif",
+      "type": "required",
+      "label": "CIF-Issued Required Items",
+      "items": [
+        {
+          "id": "sut-cif1",
+          "name": "MOLLE 4K Rucksack System (OCP)",
+          "description": "CIF-issued MOLLE 4K rucksack, OCP pattern, with nametape and cat-eyes on top flap",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "The primary load-bearing system for all field operations. CIF issue is mandatory — no substitute.",
+          "selectionTips": "Ensure nametape and cat-eye tabs are sewn on the top flap before arrival. Frame NSN: 8465-01-673-3400.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "ruck-sut",
+              "name": "ALICE Large Field Pack with Frame",
+              "price": "$89.99",
+              "url": "https://www.amazon.com/dp/B000P4YR6O",
+              "imageKey": "rucksack",
+              "reason": "While the MOLLE 4K is mandatory CIF issue, an aftermarket ruck may be authorized at cadre discretion. The ALICE frame remains the proven standard for SFQC ruck weights."
+            }
+          ]
+        },
+        {
+          "id": "sut-cif2",
+          "name": "Fighting Load Carrier (FLC)",
+          "description": "CIF-issued FLC with name tape sewn on rear drag handle",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required fighting load carrier for all tactical operations during SUT.",
+          "selectionTips": "Sew your name tape on the rear drag handle before arriving. CIF issue only.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-cif3",
+          "name": "Compass, Magnetic with Case",
+          "description": "CIF-issued magnetic compass (2 required)",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Land navigation is a primary skill evaluated throughout SUT. Two compasses required.",
+          "selectionTips": "Know how to shoot an azimuth cold. Practice for months before arriving.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "comp-sut",
+              "name": "Cammenga 3H Tritium Lensatic Compass",
+              "price": "$99.00",
+              "url": "https://www.amazon.com/dp/B000UU82Y0",
+              "imageKey": "compass",
+              "reason": "The Army-standard compass used by SF cadre. Tritium glow allows accurate azimuth shots in complete darkness — no batteries, no failure."
+            }
+          ]
+        },
+        {
+          "id": "sut-cif4",
+          "name": "Sleep System (Inner + Outer Bag)",
+          "description": "USGI modular sleep system — both inner and outer bags required",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Camp Mackall temperatures can drop below freezing. Hypothermia ends SF careers.",
+          "selectionTips": "Inner bag rated to 30°F alone. Combined system rated to -10°F. Outer bag required 1 Oct – 30 Mar.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "sleep-sut",
+              "name": "USGI Modular Sleep System (MSS)",
+              "price": "$189.99",
+              "url": "https://www.amazon.com/dp/B00B4N6ENY",
+              "imageKey": "sleeping_bag",
+              "reason": "The exact system used at Camp Mackall. Proven across all climate phases of SFQC — the same setup SF candidates have used for decades."
+            }
+          ]
+        },
+        {
+          "id": "sut-cif5",
+          "name": "Gore-Tex Bivy Cover",
+          "description": "CIF-issued waterproof bivy cover for sleep system",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "North Carolina weather is unpredictable. Bivy cover protects your sleep system from rain.",
+          "selectionTips": "Ensure it is serviceable. Check seams before arriving.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-cif6",
+          "name": "Wet Weather Jacket & Trousers (Level VI)",
+          "description": "CIF-issued Gore-Tex parka and trousers",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Mandatory for winter classes (1 Oct – 30 Mar). Required for all field operations.",
+          "selectionTips": "PCU Level 5/6 combined may substitute during winter classes. Verify with cadre.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-cif7",
+          "name": "Helmet, ACH with OCP Cover",
+          "description": "Advanced Combat Helmet with OCP cover, chinstrap, and 7 foam impact pads",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for all tactical evolutions and weapons ranges during SUT.",
+          "selectionTips": "ACU-colored impact pads only: 1 crown, 2 trapezoid, 4 oval. Ensure chinstrap is serviceable.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-cif8",
+          "name": "Canteens (1QT x2 and 2QT x2)",
+          "description": "CIF-issued 1-quart and 2-quart canteens with covers",
+          "quantity": 4,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Hydration is survival. All canteens and covers must be CIF issue.",
+          "selectionTips": "Plus canteen cups. CamelBak is additionally authorized.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "hydrate-sut",
+              "name": "CamelBak BFM 3L Hydration Pack",
+              "price": "$89.99",
+              "url": "https://www.amazon.com/dp/B000F2KAHI",
+              "imageKey": "hydration",
+              "reason": "CamelBak is additionally authorized for SUT. Hands-free 3L capacity keeps you hydrated through long patrol bases without breaking from your position."
+            }
+          ]
+        },
+        {
+          "id": "sut-cif9",
+          "name": "Poncho (Camo/ACU/OCP) or CIF Small Tarp",
+          "description": "CIF-issued camouflage poncho or small tarp (2 required)",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Primary rain protection and field shelter construction.",
+          "selectionTips": "CIF issue only. Poncho liner (woobie) is a highly recommended optional addition.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    },
+    {
+      "id": "sut-uniform",
+      "type": "required",
+      "label": "Uniform & Military-Issue Items",
+      "items": [
+        {
+          "id": "sut-u1",
+          "name": "OCP Blouse and Trouser Sets",
+          "description": "4 sets minimum. Standard issue only — no Patagonia or Crye uniforms",
+          "quantity": 4,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Worn throughout all three weeks. Mark every item with rank, name, and US Army.",
+          "selectionTips": "Uniform quantities include what is worn. Bring minimum 4 sets + what you wear on day 1.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-u2",
+          "name": "Combat Boots (AR 670-1 Compliant)",
+          "description": "2 pairs minimum of hot weather or intermediate cold boots",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Foot health is your #1 asset at Camp Mackall. Blisters can end your SFQC.",
+          "selectionTips": "Break in both pairs for months before arriving. Rotate pairs daily. Cold weather boots required 1 Oct – 30 Mar.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "boots-sut",
+              "name": "Danner Ft. Lewis 10\" Boot",
+              "price": "$219.95",
+              "url": "https://www.amazon.com/dp/B000BSGFZW",
+              "imageKey": "boots",
+              "reason": "Full-grain leather built for Camp Mackall's varied terrain. The boot most chosen by SF candidates — durable enough for weeks of continuous field use."
+            }
+          ]
+        },
+        {
+          "id": "sut-u3",
+          "name": "Wool Socks (Green, Grey, Coyote, or Black)",
+          "description": "6 pairs minimum",
+          "quantity": 6,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Mandatory AR 670-1 compliant wool socks. Moisture management prevents blisters and trench foot.",
+          "selectionTips": "Darn Tough. Change every evolution if possible. Bring more than the minimum.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "socks-sut",
+              "name": "Darn Tough Boot Full Cushion Sock",
+              "price": "$27.95",
+              "url": "https://www.amazon.com/dp/B001GZ4C7G",
+              "imageKey": "socks",
+              "reason": "Lifetime guarantee and merino wool construction. The only sock proven to survive weeks of continuous field operations in North Carolina's variable climate."
+            }
+          ]
+        },
+        {
+          "id": "sut-u4",
+          "name": "3-Day Army Assault MOLLE II Backpack",
+          "description": "Military-issue assault pack",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required secondary pack for lighter-load operations.",
+          "selectionTips": "Must be military issue. OCP pattern.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-u5",
+          "name": "IPFU Uniform (Complete)",
+          "description": "Army PT uniform — 2 shorts, 2 shirts, long pants, jacket",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for PT formation and authorized PT time.",
+          "selectionTips": "Complete set only. All items must be current ARMY-branded issue.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-u6",
+          "name": "Cold Weather Underwear (Army Issue)",
+          "description": "2 sets minimum of Army-issue cold weather base layers",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Mandatory during winter classes (1 Oct – 30 Mar). Regulates core temperature during cold-weather operations.",
+          "selectionTips": "Army issue only. No Under Armour or civilian compression shirts.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-u7",
+          "name": "Leather Gloves",
+          "description": "2 pairs of AR 670-1 compliant leather gloves",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required during cold operations and weapons handling.",
+          "selectionTips": "Black or green only. Carry two pairs to account for the wet environment.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "gloves-sut",
+              "name": "Military Mechanics Gloves (Leather)",
+              "price": "$29.95",
+              "url": "https://www.amazon.com/dp/B00DJZK4TM",
+              "imageKey": "gloves",
+              "reason": "Durable AR 670-1 compliant leather palm gloves trusted by SF candidates at Camp Mackall."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sut-mandatory-civilian",
+      "type": "required",
+      "label": "Additional Mandatory Items",
+      "items": [
+        {
+          "id": "sut-m1",
+          "name": "Headlamp with Red Filter (2) + Spare Batteries",
+          "description": "Two headlamps with red filter capability and spare batteries",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Night operations are constant during SUT. Red filter preserves night vision. Two required in case one fails.",
+          "selectionTips": "AA-battery preferred for field resupply. No rechargeable-only models.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "light-sut",
+              "name": "Princeton Tec Remix Pro Headlamp",
+              "price": "$59.95",
+              "url": "https://www.amazon.com/dp/B003F0KKDQ",
+              "imageKey": "headlamp",
+              "reason": "Trusted by SF cadre for its reliability. 300+ hour runtime on standard AA batteries — essential when there's no USB charging in the field."
+            }
+          ]
+        },
+        {
+          "id": "sut-m2",
+          "name": "Personal Hygiene Kit (6-Week Supply)",
+          "description": "Razors (10+ non-electric), toothbrush/paste (2+), soap, shaving cream, chapstick",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Students cannot use the shopette during SUT. All hygiene supplies must last the full course.",
+          "selectionTips": "Minimum 10 disposable razors. No aerosol cans. Antibacterial soap.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-m3",
+          "name": "Running Shoes",
+          "description": "1 pair of serviceable running shoes for PT",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for PT formations and morning runs.",
+          "selectionTips": "Something well broken-in. HOKA or Brooks for cushioning.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "shoes-sut",
+              "name": "HOKA Clifton 9 Running Shoe",
+              "price": "$144.95",
+              "url": "https://www.amazon.com/dp/B0B4MQG7LF",
+              "imageKey": "running_shoes",
+              "reason": "Maximum cushioning for PT runs after long field operations. Protects stress fracture-prone feet during high-mileage SFQC phases."
+            }
+          ]
+        },
+        {
+          "id": "sut-m4",
+          "name": "Notebook with Pen and Pencil",
+          "description": "Field-grade notebooks as required",
+          "quantity": 3,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "SUT is academically demanding. Recording TAC briefs, OPORD formats, and patrol orders is essential.",
+          "selectionTips": "Rite in the Rain waterproof notebooks recommended. Bring multiple.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "notepad-sut",
+              "name": "Rite in the Rain All-Weather Notebook",
+              "price": "$12.95",
+              "url": "https://www.amazon.com/dp/B00328HD2E",
+              "imageKey": "notepad",
+              "reason": "Waterproof paper survives North Carolina rain during patrol bases. Essential for recording OPORD formats and TAC briefs in the field."
+            }
+          ]
+        },
+        {
+          "id": "sut-m5",
+          "name": "Foot Powder, Anti-Fungal",
+          "description": "1 bottle anti-fungal foot powder",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Camp Mackall's wet conditions create trench foot risk. Anti-fungal powder is listed as a mandatory item.",
+          "selectionTips": "Apply daily, especially after water crossings.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-m6",
+          "name": "Wristwatch (Non-GPS, Durable)",
+          "description": "Durable mechanical or digital watch — no GPS or wireless data",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for timing patrol operations and coordinating actions on the objective.",
+          "selectionTips": "No GPS, no Bluetooth, no smart capabilities. Casio G-Shock is the standard SF candidate choice.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-m7",
+          "name": "Insect Repellent / Chigg-Away",
+          "description": "2 bottles, military or civilian (no aerosol cans)",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Camp Mackall is known for chiggers, ticks, and mosquitoes. Insect repellent is a listed mandatory item.",
+          "selectionTips": "Pump spray or lotion only. No aerosol cans authorized.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    },
+    {
+      "id": "sut-optional",
+      "type": "optional",
+      "label": "Optional Authorized Items",
+      "items": [
+        {
+          "id": "sut-o1",
+          "name": "Leatherman Multi-Tool (Highly Recommended)",
+          "description": "Quality multi-tool for field repairs",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Highly recommended by SUT cadre. Used constantly for weapons maintenance and field repairs.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "tool-sut",
+              "name": "Leatherman Wave+ Multi-Tool",
+              "price": "$109.95",
+              "url": "https://www.amazon.com/dp/B0002H49BC",
+              "imageKey": null,
+              "reason": "25 tools in 8.5 oz. The go-to for SF candidates at Camp Mackall — weapons maintenance, field repairs, and first aid all covered."
+            }
+          ]
+        },
+        {
+          "id": "sut-o2",
+          "name": "Poncho Liner (Woobie) — Highly Recommended",
+          "description": "Additional warmth layer and field versatility",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Explicitly listed as 'highly recommended' in the official packing list. The most versatile piece of field kit in the Army.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-o3",
+          "name": "Dump Pouch / Drop Pouch (Highly Recommended)",
+          "description": "Magazine dump pouch for FLC/MOLLE",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Highly recommended by cadre for magazine management during live-fire and blank-fire lanes.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-o4",
+          "name": "Knife (Max 7\" Blade, Folding/Pocket Preferred)",
+          "description": "Field knife within authorized dimensions",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Folding or pocket style preferred. Max blade length 7 inches. Keep it sharp.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-o5",
+          "name": "Ranger Handbook (April 2017 Edition)",
+          "description": "SH 21-76 or SUT Handbook",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Available for issue by cadre. Having your own tabbed copy saves time when your mind is foggy from lack of sleep.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "handbook-sut",
+              "name": "US Army Ranger Handbook SH 21-76",
+              "price": "$12.99",
+              "url": "https://www.amazon.com/dp/1978469748",
+              "imageKey": "notepad",
+              "reason": "The definitive reference for OPORD formats, battle drills, and patrol base operations. Tab the most-referenced sections before arrival."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sut-prohibited",
+      "type": "prohibited",
+      "label": "Prohibited Items",
+      "items": [
+        {
+          "id": "sut-p1",
+          "name": "Unauthorized Electronics",
+          "description": "MP3 players, cameras, voice recorders, media storage devices, GPS devices",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Any unauthorized electronic device is a violation of the Student Honor Code and results in immediate RELIEF from SUT.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-p2",
+          "name": "Civilian GPS Units",
+          "description": "Any civilian GPS device of any kind",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Students are issued the DAGR (Defense Advanced GPS Receiver) by SUT cadre. No civilian GPS of any kind allowed.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-p3",
+          "name": "Patagonia or Crye Uniforms",
+          "description": "Commercially procured combat shirts or non-standard uniforms",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Standard issue OCP only. No Patagonia, Crye, or 'combat shirts' authorized. Must be CIF-issued items.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "sut-p4",
+          "name": "Compression T-Shirts",
+          "description": "Under Armour or similar compression base layer shirts",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Specifically prohibited in SUT notes. Army-issue T-shirts and cold weather underwear only.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    }
+  ]
+}

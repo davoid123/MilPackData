@@ -1,0 +1,220 @@
+{
+  "version": "1.0.0",
+  "schemaVersion": 1,
+  "id": "marine-boot-camp",
+  "categories": [
+    {
+      "id": "mcbct-required",
+      "type": "required",
+      "label": "Required Items",
+      "items": [
+        {
+          "id": "mc-r1",
+          "name": "Government-Issued Uniforms",
+          "description": "All uniforms, boots, and gear are issued at the depot",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "The Marine Corps issues everything from MARPAT utilities to dress blues.",
+          "selectionTips": "Do not purchase any uniforms or gear before arriving — wait to be issued.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "mc-r2",
+          "name": "Hygiene Supplies",
+          "description": "Razor, deodorant, toothbrush, toothpaste",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Hygiene is a constant focus from day one.",
+          "selectionTips": "Unscented only. Travel-size. Keep it minimal.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "hyg-mc",
+              "name": "Military Hygiene Starter Kit",
+              "price": "$19.99",
+              "url": "https://www.amazon.com/dp/B07VRDMPBT",
+              "imageKey": null,
+              "reason": "Packed to USMC depot standards so you clear hygiene inspections from day one without guessing what's authorized."
+            }
+          ]
+        },
+        {
+          "id": "mc-r3",
+          "name": "Athletic Socks",
+          "description": "White crew or black socks depending on current reg",
+          "quantity": 10,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for issued PT gear.",
+          "selectionTips": "Check current USMC regs for authorized colors. Bring 10+ pairs.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "socks-mc",
+              "name": "Darn Tough Boot Cushion Socks",
+              "price": "$27.95",
+              "url": "https://www.amazon.com/dp/B001GZ4C7G",
+              "imageKey": "socks",
+              "reason": "Darn Tough socks outperform issued socks in Parris Island's brutal heat and humidity, reducing blister risk and lasting the full 13-week course."
+            }
+          ]
+        },
+        {
+          "id": "mc-r4",
+          "name": "Combination Lock",
+          "description": "Standard padlock, combination only",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required to secure your rack and footlocker.",
+          "selectionTips": "Memorize the combination. No key locks allowed.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "mc-r5",
+          "name": "Personal Identification Documents",
+          "description": "Birth certificate, Social Security card, state ID",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for in-processing.",
+          "selectionTips": "Original documents only. They will be collected and secured.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    },
+    {
+      "id": "mcbct-optional",
+      "type": "optional",
+      "label": "Recommended Items",
+      "items": [
+        {
+          "id": "mc-o1",
+          "name": "Foot Powder and Blister Kit",
+          "description": "Gold Bond powder and moleskin",
+          "quantity": 2,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Parris Island terrain is brutal on feet. Apply powder daily.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "mc-o2",
+          "name": "Running Shoes (Pre-Ship)",
+          "description": "Personal running shoes for pre-ship PT",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "You'll likely have a pair to wear en route. They may be used at the depot or stored.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "shoes-mc",
+              "name": "Brooks Ghost 15 Running Shoe",
+              "price": "$139.95",
+              "url": "https://www.amazon.com/dp/B09FVWLLZ8",
+              "imageKey": "running_shoes",
+              "reason": "A top choice among USMC cadre for recruit PT. Neutral cushioning handles both the track and Parris Island's sandy terrain without breaking down."
+            }
+          ]
+        },
+        {
+          "id": "mc-o3",
+          "name": "Notebooks and Pens",
+          "description": "Writing supplies for letters home",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Letters are your primary way to communicate. Stock up before departure.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    },
+    {
+      "id": "mcbct-prohibited",
+      "type": "prohibited",
+      "label": "Prohibited Items",
+      "items": [
+        {
+          "id": "mc-p1",
+          "name": "Cell Phone",
+          "description": "Personal smartphones",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Prohibited throughout training. Will be confiscated at reception.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "mc-p2",
+          "name": "Civilian Clothing",
+          "description": "Non-military attire",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "All civilian clothing is secured or shipped home at reception.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "mc-p3",
+          "name": "Tobacco Products",
+          "description": "Cigarettes, dip, e-cigarettes",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Tobacco is banned throughout recruit training at both depots.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    }
+  ]
+}

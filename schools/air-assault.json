@@ -1,0 +1,387 @@
+{
+  "version": "1.0.0",
+  "schemaVersion": 1,
+  "id": "air-assault",
+  "categories": [
+    {
+      "id": "aa-required",
+      "type": "required",
+      "label": "Required Items",
+      "items": [
+        {
+          "id": "aa-r1",
+          "name": "Army Combat Uniform (ACU/OCP)",
+          "description": "Multiple sets of duty uniform",
+          "quantity": 3,
+          "category": "required",
+          "notes": "Must meet current Army uniform standards",
+          "whyNeeded": "Worn throughout the course for all training events.",
+          "selectionTips": "Bring at least 3 sets. Ensure they are serviceable and meet current standards.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "aa-r2",
+          "name": "Combat Boots",
+          "description": "Broken-in military-approved boots",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "You will walk miles daily on varied terrain. Foot care is critical.",
+          "selectionTips": "Break in boots before arrival. Leather or approved synthetic. Consider a second pair to rotate.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "boots-1",
+              "name": "Danner Reckoning 8\" Boot",
+              "price": "$249.95",
+              "url": "https://www.amazon.com/dp/B01NBOQ1VX",
+              "imageKey": "boots",
+              "reason": "Field-tested by soldiers worldwide. Superior ankle support and waterproofing hold up through ruck marches and full rappelling days."
+            },
+            {
+              "id": "boots-2",
+              "name": "Belleville 790ST Steel Toe",
+              "price": "$169.95",
+              "url": "https://www.amazon.com/dp/B0041OL0BY",
+              "imageKey": "boots",
+              "reason": "Military-grade construction at a budget price. Rated for sustained heavy use on concrete and rough terrain."
+            }
+          ]
+        },
+        {
+          "id": "aa-r3",
+          "name": "Rucksack (ALICE or MOLLE)",
+          "description": "Military-issue or equivalent large rucksack",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for ruck marches and carrying field equipment.",
+          "selectionTips": "Must have a frame. Pack smart — weight distribution matters for long ruck marches.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "rucksack-1",
+              "name": "Mystery Ranch NICE Frame Pack",
+              "price": "$419.00",
+              "url": "https://www.amazon.com/dp/B00CQWZB5O",
+              "imageKey": "rucksack",
+              "reason": "Preferred by SOF operators. The NICE frame transfers load efficiently, protecting your lower back across multi-mile movements."
+            }
+          ]
+        },
+        {
+          "id": "aa-r4",
+          "name": "Camelback / Hydration System",
+          "description": "2-3 liter hydration bladder",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Staying hydrated is critical during intense physical training.",
+          "selectionTips": "Bring extra water purification tablets as backup.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "hydration-1",
+              "name": "CamelBak BFM 3L Hydration Pack",
+              "price": "$89.99",
+              "url": "https://www.amazon.com/dp/B000F2KAHI",
+              "imageKey": "hydration",
+              "reason": "Army-issue for a reason — hands-free 3L hydration with a bladder that survives years of field abuse without leaking."
+            }
+          ]
+        },
+        {
+          "id": "aa-r5",
+          "name": "PT Uniform",
+          "description": "Army PT shirt, shorts, pants",
+          "quantity": 3,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for morning PT and physical fitness tests.",
+          "selectionTips": "Current Army PT uniform only. No civilian workout gear.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "aa-r6",
+          "name": "Running Shoes",
+          "description": "Quality athletic running shoes",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "PT runs require proper footwear to prevent injury.",
+          "selectionTips": "Use road runners for asphalt, trail shoes for terrain. Prioritize comfort over looks.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "shoes-1",
+              "name": "Brooks Ghost 15 Running Shoe",
+              "price": "$139.95",
+              "url": "https://www.amazon.com/dp/B09FVWLLZ8",
+              "imageKey": "running_shoes",
+              "reason": "Consistently rated #1 for military PT. Exceptional cushioning reduces injury risk across daily 2–5 mile runs on pavement."
+            }
+          ]
+        },
+        {
+          "id": "aa-r7",
+          "name": "Gloves (Leather Work Gloves)",
+          "description": "Leather rappelling gloves",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for rappelling operations. Protects hands from rope burns.",
+          "selectionTips": "Leather gloves only — synthetic can melt on a hot rope. Bring extras.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "gloves-1",
+              "name": "Wells Lamont Leather Work Gloves",
+              "price": "$14.99",
+              "url": "https://www.amazon.com/dp/B000F6H1EK",
+              "imageKey": "gloves",
+              "reason": "The standard Air Assault rappelling glove. Thick cowhide leather won't melt or slip on a loaded rope like synthetics do."
+            }
+          ]
+        },
+        {
+          "id": "aa-r8",
+          "name": "Notepad and Pens",
+          "description": "Waterproof notepad and permanent markers",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Must take notes during all classroom instruction.",
+          "selectionTips": "Rite in the Rain notepads are ideal — waterproof in the field.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "notepad-1",
+              "name": "Rite in the Rain All-Weather Notebook",
+              "price": "$9.95",
+              "url": "https://www.amazon.com/dp/B000JBGMHM",
+              "imageKey": "notepad",
+              "reason": "Waterproof pages survive rain, sweat, and humidity. A special operations standard for decades — your notes survive whatever the course throws at them."
+            }
+          ]
+        },
+        {
+          "id": "aa-r9",
+          "name": "Dog Tags",
+          "description": "Properly stamped military ID tags",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required identification for all military personnel.",
+          "selectionTips": "Must be current and legible. Bring both primary and duplicate.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "aa-r10",
+          "name": "Military ID Card",
+          "description": "Valid CAC card",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for access and identification.",
+          "selectionTips": "Do not lose this. Keep it secure at all times.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    },
+    {
+      "id": "aa-optional",
+      "type": "optional",
+      "label": "Optional Items",
+      "items": [
+        {
+          "id": "aa-o1",
+          "name": "Moleskin / Foot Care Kit",
+          "description": "Blister prevention and treatment supplies",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": "Blisters are a top reason soldiers quit. Treat them immediately.",
+          "selectionTips": "Bring moleskin, athletic tape, and foot powder. Consider Leukotape for severe blister-prone areas.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "foot-1",
+              "name": "Dr. Scholl's Moleskin Plus",
+              "price": "$7.49",
+              "url": "https://www.amazon.com/dp/B000GCJKP6",
+              "imageKey": null,
+              "reason": "Cuts directly to any shape and adheres firmly even when wet. The fastest, simplest blister treatment you can pack."
+            }
+          ]
+        },
+        {
+          "id": "aa-o2",
+          "name": "Body Glide Anti-Chafe",
+          "description": "Anti-chafing balm for long ruck marches",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Apply to inner thighs, underarms, and anywhere uniform rubs.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "glide-1",
+              "name": "Body Glide Original Anti-Chafe Balm",
+              "price": "$10.99",
+              "url": "https://www.amazon.com/dp/B0013HBCGE",
+              "imageKey": null,
+              "reason": "Prevents raw skin on ruck marches better than petroleum jelly. Odorless, won't stain your uniform, and lasts all day."
+            }
+          ]
+        },
+        {
+          "id": "aa-o3",
+          "name": "Mini Flashlight / Headlamp",
+          "description": "Red-lens capable headlamp",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Red lens preserves night vision. Essential for early morning and night operations.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "headlamp-1",
+              "name": "Petzl Tactikka Core Headlamp",
+              "price": "$49.95",
+              "url": "https://www.amazon.com/dp/B07PGR5ZMB",
+              "imageKey": "headlamp",
+              "reason": "Red and white output modes with 300-lumen peak brightness. USB rechargeable — no scrambling for batteries during the course."
+            }
+          ]
+        },
+        {
+          "id": "aa-o4",
+          "name": "Knee Sleeves / Braces",
+          "description": "Compression knee sleeves for ruck marches",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Great for injury prevention if you have any prior knee issues.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "aa-o5",
+          "name": "Protein / Energy Bars",
+          "description": "High-calorie snacks for sustained energy",
+          "quantity": 20,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Pack bars that won't melt. Clif bars and RXBars work well in the field.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    },
+    {
+      "id": "aa-prohibited",
+      "type": "prohibited",
+      "label": "Prohibited Items",
+      "items": [
+        {
+          "id": "aa-p1",
+          "name": "Civilian Clothing (Off-Duty Areas Only)",
+          "description": "Non-military casual wear",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Civilian clothes allowed in barracks during off-hours, not in training areas",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "aa-p2",
+          "name": "Alcohol",
+          "description": "Any alcoholic beverages",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Zero tolerance. Can result in course dismissal.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "aa-p3",
+          "name": "Non-Military Rucksack",
+          "description": "Civilian backpacks or hiking packs",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Must use military-spec rucksack with frame for ruck marches.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    }
+  ]
+}

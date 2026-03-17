@@ -1,0 +1,238 @@
+{
+  "version": "1.0.0",
+  "schemaVersion": 1,
+  "id": "psyop-bqc",
+  "categories": [
+    {
+      "id": "psyop-required",
+      "type": "required",
+      "label": "Required Items",
+      "items": [
+        {
+          "id": "psy-r1",
+          "name": "OCP Uniforms",
+          "description": "Operational Camouflage Pattern duty uniforms",
+          "quantity": 4,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Worn daily throughout the course. Expect wear and tear during field exercises.",
+          "selectionTips": "Bring four sets minimum. Mark everything with your name and rank.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "psy-r2",
+          "name": "Combat Boots (Broken In)",
+          "description": "Two pairs of well-broken-in combat boots",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Field exercises involve extended foot movement. Blisters slow you down and draw negative attention.",
+          "selectionTips": "Break both pairs in over at least 3 months. Rotate daily to let them dry.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "boots-psy",
+              "name": "Garmont T8 NFS Tactical Boot",
+              "price": "$179.95",
+              "url": "https://www.amazon.com/dp/B00DYXRI4A",
+              "imageKey": "boots",
+              "reason": "Lightweight and fast-drying — ideal for the mix of classroom and field work at Fort Liberty. Breaks in faster than full-leather alternatives."
+            }
+          ]
+        },
+        {
+          "id": "psy-r3",
+          "name": "Laptop (Personal)",
+          "description": "Personal laptop for coursework and media production",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "PSYOP BQC involves significant media production, briefing preparation, and target audience analysis work.",
+          "selectionTips": "A reliable laptop with presentation and basic design software is essential. Check with your cadre for specific requirements.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "psy-r4",
+          "name": "Rucksack (65L+)",
+          "description": "Large frame rucksack for field exercises",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Field training exercises require carrying full kit over varied terrain.",
+          "selectionTips": "Same pack you'd use for any Army school. Break it in before the course.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "ruck-psy",
+              "name": "ALICE Large Field Pack with Frame",
+              "price": "$89.99",
+              "url": "https://www.amazon.com/dp/B000P4YR6O",
+              "imageKey": "rucksack",
+              "reason": "The proven standard for Army field operations. External frame distributes load across long field exercises at Fort Liberty."
+            }
+          ]
+        },
+        {
+          "id": "psy-r5",
+          "name": "Identification Documents",
+          "description": "Military ID, orders, medical records",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for in-processing at Fort Liberty.",
+          "selectionTips": "Bring multiple copies of your orders. Keep originals in a secure folder.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "psy-r6",
+          "name": "Wool Socks (Quality)",
+          "description": "Merino wool boot socks",
+          "quantity": 8,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Foot care is critical during field exercises.",
+          "selectionTips": "Darn Tough or Smartwool. Bring at least 8 pairs.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "socks-psy",
+              "name": "Darn Tough Tactical Micro Crew",
+              "price": "$22.95",
+              "url": "https://www.amazon.com/dp/B076B2JKPC",
+              "imageKey": "socks",
+              "reason": "Lifetime guarantee and superior moisture management. Keeps feet dry through Fort Liberty's humid climate during extended field problems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psyop-optional",
+      "type": "optional",
+      "label": "Recommended Items",
+      "items": [
+        {
+          "id": "psy-o1",
+          "name": "Portable Hard Drive",
+          "description": "External storage for media projects",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "PSYOP coursework generates large media files. Back up everything regularly.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "psy-o2",
+          "name": "Notebooks and Pens",
+          "description": "Waterproof field notebook and writing supplies",
+          "quantity": 3,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Rite in the Rain notebooks are ideal for field exercises. Take detailed notes during lectures.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "notepad-psy",
+              "name": "Rite in the Rain All-Weather Notebook",
+              "price": "$12.95",
+              "url": "https://www.amazon.com/dp/B00328HD2E",
+              "imageKey": "notepad",
+              "reason": "Waterproof paper survives Fort Liberty rain and humidity. Essential for recording target audience analysis data in the field."
+            }
+          ]
+        },
+        {
+          "id": "psy-o3",
+          "name": "Headlamp",
+          "description": "Tactical headlamp with red filter",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Useful for field exercises and night operations. Red filter preserves night vision.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "light-psy",
+              "name": "Princeton Tec Remix Pro Headlamp",
+              "price": "$59.95",
+              "url": "https://www.amazon.com/dp/B003F0KKDQ",
+              "imageKey": "headlamp",
+              "reason": "Reliable multiple-mode headlamp trusted by SOF units. Runs on standard AAs for hundreds of hours in the field."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psyop-prohibited",
+      "type": "prohibited",
+      "label": "Prohibited Items",
+      "items": [
+        {
+          "id": "psy-p1",
+          "name": "Unauthorized Recording Devices",
+          "description": "Personal cameras or recording equipment in classified areas",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "PSYOP coursework includes sensitive material. No personal recording in instructional areas without permission.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "psy-p2",
+          "name": "Civilian Clothing (During Duty)",
+          "description": "Non-military attire during duty hours",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Uniform is required during all duty hours. Civilian clothes for off-duty time only.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    }
+  ]
+}

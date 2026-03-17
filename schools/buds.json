@@ -1,0 +1,235 @@
+{
+  "version": "1.0.0",
+  "schemaVersion": 1,
+  "id": "buds",
+  "categories": [
+    {
+      "id": "buds-required",
+      "type": "required",
+      "label": "Required Items",
+      "items": [
+        {
+          "id": "buds-r1",
+          "name": "Running Shoes (Multiple Pairs)",
+          "description": "High-quality road running shoes, broken in",
+          "quantity": 3,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "You will run hundreds of miles during BUD/S. Shoe quality directly prevents stress fractures.",
+          "selectionTips": "Rotate 3+ pairs to let them dry. Many candidates prefer HOKA ONE ONE or Brooks for cushion.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "buds-shoes-1",
+              "name": "HOKA Clifton 9 Running Shoe",
+              "price": "$144.95",
+              "url": "https://www.amazon.com/dp/B0B4MQG7LF",
+              "imageKey": "running_shoes",
+              "reason": "Maximum cushioning protects joints during the 600+ miles of running in BUD/S. Multiple SEAL instructors recommend HOKA specifically for reducing stress fracture risk."
+            }
+          ]
+        },
+        {
+          "id": "buds-r2",
+          "name": "Wetsuit (3mm)",
+          "description": "Full-body wetsuit for cold water training",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Cold water immersion is constant. Hypothermia is a leading reason candidates quit.",
+          "selectionTips": "Fit is critical — too loose and it's useless, too tight and you'll exhaust yourself. Try on before purchasing.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "buds-r3",
+          "name": "Swim Fins",
+          "description": "Long-blade freediving fins",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for ocean swims and hydrographic reconnaissance. Speed and efficiency matter.",
+          "selectionTips": "Churchill Makapuu fins are the SEAL standard. Break them in before the course.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "buds-r4",
+          "name": "Dive Mask and Snorkel",
+          "description": "Low-volume dive mask with clear silicone",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Required for underwater operations and pool evolutions.",
+          "selectionTips": "Bring a backup. Masks get kicked off or fogged beyond use.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "buds-r5",
+          "name": "Knee and Ankle Sleeves",
+          "description": "Compression joint support",
+          "quantity": 3,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Joint injuries are extremely common. Prevention is the only strategy.",
+          "selectionTips": "Learn to tape your own knees and ankles. Do it before every evolution.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "buds-r6",
+          "name": "Quality Socks (High Volume)",
+          "description": "Moisture-wicking athletic socks",
+          "quantity": 14,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "You will be wet constantly. Trench foot and blisters can end your BUD/S career.",
+          "selectionTips": "Darn Tough or Smartwool. Bring at least 14 pairs. Change socks every evolution if possible.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "socks-buds",
+              "name": "Darn Tough Tactical Micro Crew",
+              "price": "$22.95",
+              "url": "https://www.amazon.com/dp/B076B2JKPC",
+              "imageKey": "socks",
+              "reason": "Merino wool retains warmth even when completely soaked — critical when you're in the Pacific Ocean multiple times per day throughout BUD/S."
+            }
+          ]
+        },
+        {
+          "id": "buds-r7",
+          "name": "Leukotape and Foot Care",
+          "description": "Athletic tape and blister prevention supplies",
+          "quantity": 5,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Blisters will form. How you manage them determines if you continue.",
+          "selectionTips": "Leukotape over moleskin. Apply before blisters form. Bring Vaseline for toes.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    },
+    {
+      "id": "buds-optional",
+      "type": "optional",
+      "label": "Recommended Items",
+      "items": [
+        {
+          "id": "buds-o1",
+          "name": "Mental Toughness Books",
+          "description": "Psychological preparation resources",
+          "quantity": 2,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Read 'Can't Hurt Me' by David Goggins and 'The Warrior Elite' by Dick Couch. BUD/S is 90% mental.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "buds-o2",
+          "name": "Electrolyte Supplements",
+          "description": "Salt tabs and hydration packets",
+          "quantity": 60,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Critical during Hell Week and high-heat evolutions. Don't skip these.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "elect-buds",
+              "name": "Liquid IV Hydration Multiplier",
+              "price": "$24.99",
+              "url": "https://www.amazon.com/dp/B01IT9NLHW",
+              "imageKey": null,
+              "reason": "BUD/S candidates lose dangerous amounts of electrolytes. One packet prevents the muscle cramps that force candidates to quit during Hell Week."
+            }
+          ]
+        },
+        {
+          "id": "buds-o3",
+          "name": "Cold Water Swim Training (Pre-BUD/S)",
+          "description": "Preparation protocol — cold water acclimatization",
+          "quantity": 1,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Start cold water immersion 3-6 months before reporting. This is the single best way to prepare.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    },
+    {
+      "id": "buds-prohibited",
+      "type": "prohibited",
+      "label": "Prohibited Items",
+      "items": [
+        {
+          "id": "buds-p1",
+          "name": "Unauthorized Electronics in Training",
+          "description": "Personal phones, watches, GPS in training areas",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "OPSEC. Will be confiscated and you may be dropped.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "buds-p2",
+          "name": "Performance-Enhancing Drugs",
+          "description": "Unauthorized supplements or steroids",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Random drug testing occurs throughout. Immediately disqualifying.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "version": "1.0.0",
+  "schemaVersion": 1,
+  "id": "marsoc-asc",
+  "categories": [
+    {
+      "id": "marsoc-required",
+      "type": "required",
+      "label": "Required Items",
+      "items": [
+        {
+          "id": "mars-r1",
+          "name": "Combat Boots (Broken In)",
+          "description": "Two pairs of proven, well-broken-in combat boots",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Ruck marches and land navigation demand boots that you fully trust. Blisters are disqualifying.",
+          "selectionTips": "Break both pairs in over 6+ months of hard use. Rotate between evolutions to dry them out.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "boots-mars",
+              "name": "Danner Reckoning 8\" Boot",
+              "price": "$249.95",
+              "url": "https://www.amazon.com/dp/B01NBOQ1VX",
+              "imageKey": "boots",
+              "reason": "Worn by Marine Raiders and Army SF alike. Full-grain leather outlasts synthetic alternatives across Camp Lejeune's varied terrain through weeks of sustained use."
+            }
+          ]
+        },
+        {
+          "id": "mars-r2",
+          "name": "Rucksack (65L+ with Frame)",
+          "description": "Large military frame rucksack",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "MARSOC A&S includes heavy ruck marches over varied terrain at Camp Lejeune.",
+          "selectionTips": "Frame is critical for weight distribution over long distances. Hip belt fit matters most.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "ruck-mars",
+              "name": "ALICE Large Field Pack with Frame",
+              "price": "$89.99",
+              "url": "https://www.amazon.com/dp/B000P4YR6O",
+              "imageKey": "rucksack",
+              "reason": "The original military standard for a reason. External aluminum frame is mandatory for MARSOC ruck weights and distributes load far better than frameless packs."
+            }
+          ]
+        },
+        {
+          "id": "mars-r3",
+          "name": "Lensatic Compass",
+          "description": "Military lensatic compass",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Land navigation is a primary MARSOC evaluation skill.",
+          "selectionTips": "Practice daily for months. Know how to navigate at night.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "comp-mars",
+              "name": "Cammenga 3H Tritium Lensatic Compass",
+              "price": "$99.00",
+              "url": "https://www.amazon.com/dp/B000UU82Y0",
+              "imageKey": "compass",
+              "reason": "Identical to the MARSOC-issued compass. Accurate to 1° in any lighting condition — non-negotiable for selection-level land navigation in the dark."
+            }
+          ]
+        },
+        {
+          "id": "mars-r4",
+          "name": "Hydration System",
+          "description": "2-3L hydration bladder system",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "North Carolina heat and humidity make hydration survival-critical during ruck marches.",
+          "selectionTips": "CamelBak or similar. Keep it filled and drink before you're thirsty.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "hydrate-mars",
+              "name": "CamelBak BFM 3L Hydration Pack",
+              "price": "$89.99",
+              "url": "https://www.amazon.com/dp/B000F2KAHI",
+              "imageKey": "hydration",
+              "reason": "Hands-free 3L hydration with a military-grade bladder. The extra molle pouches stow essential field items without requiring a second separate pack."
+            }
+          ]
+        },
+        {
+          "id": "mars-r5",
+          "name": "Wool Socks (Quality)",
+          "description": "Merino wool or military boot socks",
+          "quantity": 10,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Moisture management is critical for blister prevention.",
+          "selectionTips": "Darn Tough only. Bring 10+ pairs and change every evolution.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "socks-mars",
+              "name": "Darn Tough Boot Full Cushion Sock",
+              "price": "$27.95",
+              "url": "https://www.amazon.com/dp/B001GZ4C7G",
+              "imageKey": "socks",
+              "reason": "Rated for the harshest field conditions. Wool keeps feet regulated through Camp Lejeune's unpredictable heat, humidity, and water crossings."
+            }
+          ]
+        },
+        {
+          "id": "mars-r6",
+          "name": "Headlamp (Red Filter)",
+          "description": "Tactical headlamp with red-lens capability",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Night land navigation requires a reliable light source that preserves night vision.",
+          "selectionTips": "Bring extra AA batteries. Test it before reporting.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "light-mars",
+              "name": "Princeton Tec Remix Pro Headlamp",
+              "price": "$59.95",
+              "url": "https://www.amazon.com/dp/B003F0KKDQ",
+              "imageKey": "headlamp",
+              "reason": "Trusted by Marine Raiders for mission reliability. Multiple brightness modes and months of battery life on standard AAs — no charging cable needed in the field."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marsoc-optional",
+      "type": "optional",
+      "label": "Recommended Items",
+      "items": [
+        {
+          "id": "mars-o1",
+          "name": "Leukotape",
+          "description": "High-adhesion athletic tape",
+          "quantity": 3,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Apply preemptively to blister-prone areas. Non-negotiable at this level.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "mars-o2",
+          "name": "Electrolyte Supplements",
+          "description": "Salt tabs and hydration powder",
+          "quantity": 30,
+          "category": "optional",
+          "notes": null,
+          "whyNeeded": null,
+          "selectionTips": "Camp Lejeune heat is intense. Cramping ends selection careers.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "elect-mars",
+              "name": "Liquid IV Hydration Multiplier",
+              "price": "$24.99",
+              "url": "https://www.amazon.com/dp/B01IT9NLHW",
+              "imageKey": null,
+              "reason": "Clinically proven 2–3× faster hydration than water alone. Camp Lejeune summer heat causes dangerous cramping without proper electrolyte supplementation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marsoc-prohibited",
+      "type": "prohibited",
+      "label": "Prohibited Items",
+      "items": [
+        {
+          "id": "mars-p1",
+          "name": "GPS Devices",
+          "description": "Electronic navigation aids",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "All navigation is map and compass only. GPS found on your person = dropped from selection.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+        {
+          "id": "mars-p2",
+          "name": "Pre-Workout Stimulants",
+          "description": "High-stimulant supplements",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Risk of cardiac events under extreme physical stress.",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        }
+      ]
+    }
+  ]
+}
