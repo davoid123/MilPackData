@@ -8,6 +8,33 @@
       "type": "required",
       "label": "CIF-Issued Required Items",
       "items": [
+
+        {
+          "id": "sut-cif1",
+          "name": "Fighting Load Carrier (FLC)",
+          "description": "CIF-issued Fighting Load Carrier",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "It's where ye put ur mags... CIF issue is mandatory, so bring it, but some cadre may let you run another setup.",
+          "selectionTips": "Highly recommend getting an H harness. It helps prevent the back strap from rubbing against your neck while rucking.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "h-harness-sut",
+              "name": "ALICE Large Field Pack with Frame",
+              "price": "$89.99",
+              "url": "https://amzn.to/418L73l",
+              "imageKey": "rucksack",
+              "reason": "H harnesses help prevent neck chafing."
+            }
+          ]
+        },
+
+
         {
           "id": "sut-cif1",
           "name": "MOLLE 4K Rucksack System (OCP)",
@@ -556,54 +583,6 @@
               "reason": "The definitive reference for OPORD formats, battle drills, and patrol base operations. Tab the most-referenced sections before arrival."
             }
           ]
-        },
-        {
-          "id": "sut-o6",
-          "name": "This is a test",
-          "description": "STest 123 456 234 Hello jimmy I really think this is cool.",
-          "quantity": 2,
-          "category": "optional",
-          "notes": null,
-          "whyNeeded": null,
-          "selectionTips": "Hello this is a normal test. Nothing to see here 123.",
-          "tags": [],
-          "priority": "normal",
-          "weight": null,
-          "links": [],
-          "recommendedProducts": [
-            {
-              "id": "test",
-              "name": "This is a test of the store",
-              "price": "$69.99",
-              "url": "https://www.google.com",
-              "imageKey": "key",
-              "reason": "I dont know what this code does."
-            }
-          ]
-        },
-        {
-          "id": "sut-o7",
-          "name": "This is a test part 2",
-          "description": "STest 123 456 234 Hello jimmy I really think this is cool.",
-          "quantity": 2,
-          "category": "optional",
-          "notes": null,
-          "whyNeeded": null,
-          "selectionTips": "Hello this is a normal test. Nothing to see here 123.",
-          "tags": [],
-          "priority": "normal",
-          "weight": null,
-          "links": [],
-          "recommendedProducts": [
-            {
-              "id": "test",
-              "name": "This is a test of the store",
-              "price": "$69.99",
-              "url": "https://www.google.com",
-              "imageKey": "key",
-              "reason": "I dont know what this code does."
-            }
-          ]
         }
 
       ]
@@ -613,6 +592,24 @@
       "type": "prohibited",
       "label": "Prohibited Items",
       "items": [
+
+        {
+          "id": "sut-p1",
+          "name": "Substitute or Civilian Items",
+          "description": "Any substitute or civilian items of equipment to include items issued by previous commands are not authorized unless specified.",
+          "quantity": 0,
+          "category": "prohibited",
+          "notes": "Use Army issued equipment",
+          "whyNeeded": null,
+          "selectionTips": null,
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": []
+        },
+
+
         {
           "id": "sut-p1",
           "name": "Unauthorized Electronics",
