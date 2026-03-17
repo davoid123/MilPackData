@@ -59,7 +59,30 @@
           ]
         },
 
-
+        {
+          "id": "sut-cif2",
+          "name": "First Aid/IFAK Case",
+          "description": "OCP IFAK Case",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "",
+          "selectionTips": "",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "",
+              "name": "",
+              "price": "",
+              "url": "",
+              "imageKey": "",
+              "reason": ""
+            }
+          ]
+        },
 
         {
           "id": "sut-cif13",
@@ -606,7 +629,7 @@
       "items": [
 
         {
-          "id": "sut-p1",
+          "id": "sut-p0",
           "name": "Substitute or Civilian Items",
           "description": "Any substitute or civilian items of equipment to include items issued by previous commands are not authorized unless specified.",
           "quantity": 0,
