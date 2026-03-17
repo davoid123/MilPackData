@@ -10,14 +10,14 @@
       "items": [
 
         {
-          "id": "sut-cif20",
+          "id": "sut-cif0",
           "name": "Fighting Load Carrier (FLC)",
-          "description": "CIF-issued Fighting Load Carrier",
+          "description": "CIF-issued Fighting Load Carrier. Name Tape will be sewn on the rear drag handle of the FLC.",
           "quantity": 1,
           "category": "required",
           "notes": null,
-          "whyNeeded": "It's where ye put ur mags... CIF issue is mandatory, so bring it, but some cadre may let you run another setup.",
-          "selectionTips": "Highly recommend getting an H harness. It helps prevent the back strap from rubbing against your neck while rucking.",
+          "whyNeeded": "It's where ye put ur mags... CIF issue is mandatory.",
+          "selectionTips": "Highly recommend getting an H harness. It helps prevent the back strap from rubbing against your neck while rucking. Also remember to sew your Name Tape on the rear drag handle.",
           "tags": [],
           "priority": "normal",
           "weight": null,
@@ -25,14 +25,65 @@
           "recommendedProducts": [
             {
               "id": "h-harness-sut",
-              "name": "ALICE Large Field Pack with Frame",
-              "price": "$89.99",
+              "name": "Laser-Cut Shoulder Strap H-Harness",
+              "price": "$34.95",
               "url": "https://amzn.to/418L73l",
-              "imageKey": "rucksack",
-              "reason": "H harnesses helps prevent neck chafing."
+              "imageKey": "",
+              "reason": "Helps prevent neck chafing and more evenly distributes the load. Also allows you to tighten FLC against chest to prevent bouncing while ruck-running."
             }
           ]
         },
+
+        {
+          "id": "sut-cif1",
+          "name": "Canteen (1QT)",
+          "description": "1 Quart Canteens",
+          "quantity": 2,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "Hydrate or Diedrate",
+          "selectionTips": "The Nalgene canteens let you see what's inside.",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "nalgene-oasis-bottles",
+              "name": "Nalgene Oasis Bottles (2-Pack)",
+              "price": "$29.95",
+              "url": "https://amzn.to/47QSQqt",
+              "imageKey": "",
+              "reason": "Allow you to see what's inside. Also slightly more comfortable to lie on than standard issue canteens.'"
+            }
+          ]
+        },
+
+        {
+          "id": "sut-cif2",
+          "name": "First Aid/IFAK Case",
+          "description": "OCP IFAK Case",
+          "quantity": 1,
+          "category": "required",
+          "notes": null,
+          "whyNeeded": "",
+          "selectionTips": "",
+          "tags": [],
+          "priority": "normal",
+          "weight": null,
+          "links": [],
+          "recommendedProducts": [
+            {
+              "id": "",
+              "name": "",
+              "price": "",
+              "url": "",
+              "imageKey": "",
+              "reason": ""
+            }
+          ]
+        },
+
 
 
         {
@@ -59,21 +110,7 @@
             }
           ]
         },
-        {
-          "id": "sut-cif2",
-          "name": "Fighting Load Carrier (FLC)",
-          "description": "CIF-issued FLC with name tape sewn on rear drag handle",
-          "quantity": 1,
-          "category": "required",
-          "notes": null,
-          "whyNeeded": "Required fighting load carrier for all tactical operations during SUT.",
-          "selectionTips": "Sew your name tape on the rear drag handle before arriving. CIF issue only.",
-          "tags": [],
-          "priority": "normal",
-          "weight": null,
-          "links": [],
-          "recommendedProducts": []
-        },
+
         {
           "id": "sut-cif3",
           "name": "Compass, Magnetic with Case",
