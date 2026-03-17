@@ -13,7 +13,9 @@
       "name": "Basic Combat Training",
       "shortName": "BCT",
       "branch": "General Army",
-      "branches": [],
+      "branches": [
+        "General Army"
+      ],
       "location": "Multiple installations",
       "duration": "10 weeks",
       "difficulty": "Moderate",
@@ -45,7 +47,9 @@
       "name": "Small Unit Tactics",
       "shortName": "SUT",
       "branch": "Special Forces",
-      "branches": [],
+      "branches": [
+        "Special Forces"
+      ],
       "location": "Camp Mackall, NC",
       "duration": "~6 weeks",
       "difficulty": "Extreme",
@@ -99,7 +103,9 @@
       "name": "Robin Sage Detail",
       "shortName": "Sage Detail",
       "branch": "Special Forces",
-      "branches": [],
+      "branches": [
+        "Special Forces"
+      ],
       "location": "Camp Mackall, NC",
       "duration": "1-4 weeks",
       "difficulty": "Moderate",
@@ -114,7 +120,9 @@
       "name": "Special Forces Preparation Course",
       "shortName": "SFPC",
       "branch": "Special Forces",
-      "branches": [],
+      "branches": [
+        "Special Forces"
+      ],
       "location": "Camp Mackall, NC",
       "duration": "~4 weeks",
       "difficulty": "Moderate",
