@@ -28,7 +28,9 @@
       "name": "Special Forces Assessment & Selection",
       "shortName": "SFAS",
       "branch": "Special Forces",
-      "branches": [],
+      "branches": [
+        "Special Forces"
+      ],
       "location": "Camp Mackall, NC",
       "duration": "24 days",
       "difficulty": "Hard",
