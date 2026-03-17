@@ -1,24 +1,5 @@
 {
-  /*
-  {
-    "id": "sut",
-    "name": "Special Forces Small Unit Tactics",
-    "shortName": "SF SUT",
-    "branch": "Special Forces",
-    "branches": [],
-    "location": "Camp Mackall, Fort Liberty, NC",
-    "duration": "~3 weeks",
-    "difficulty": "Extreme",
-    "description": "The Small Unit Tactics (SUT) phase of the Special Forces Qualification Course (SFQC) at Camp Mackall, Fort Liberty, NC. Approximately 3 weeks of intense field training in small unit tactics, land navigation, and combat operations for Special Forces candidates.",
-    "imageKey": "sut",
-    "dataFile": "schools/xxxx.json",
-    "updatedAt": "2026-xx-xx"
-  },
 
-
-
-  `difficulty` must be one of: `"Moderate"`, `"Hard"`, `"Extreme"`
-  */
 
 
 
@@ -56,37 +37,7 @@
       "dataFile": "schools/sfas.json",
       "updatedAt": "2025-10-25"
     },
-    /*
-    {
-      "id": "psyop-bqc",
-      "name": "PSYOP Basic Qualification Course",
-      "shortName": "PSYOP BQC",
-      "branch": "Psychological Operations",
-      "branches": [],
-      "location": "Fort Liberty, NC",
-      "duration": "~20 weeks",
-      "difficulty": "Hard",
-      "description": "Approximately 20-week course at Fort Liberty, NC training soldiers in psychological operations planning, media production, and target audience analysis. Prepares candidates for assignment to a PSYOP unit.",
-      "imageKey": "psyop-bqc",
-      "dataFile": "schools/psyop-bqc.json",
-      "updatedAt": "2026-03-17"
-    },
-
-    {
-      "id": "civil-affairs-as",
-      "name": "Civil Affairs Assessment & Selection",
-      "shortName": "CA A&S",
-      "branch": "Civil Affairs",
-      "branches": [],
-      "location": "Fort Liberty, NC",
-      "duration": "~3 weeks",
-      "difficulty": "Hard",
-      "description": "Approximately 3-week assessment and selection course at Fort Liberty, NC evaluating candidates for Civil Affairs. Tests physical fitness, problem-solving, communication skills, and cultural awareness.",
-      "imageKey": "civil-affairs-as",
-      "dataFile": "schools/civil-affairs-as.json",
-      "updatedAt": "2026-03-17"
-    },
-    */
+  
     {
       "id": "sut",
       "name": "Small Unit Tactics",
@@ -140,22 +91,7 @@
       "dataFile": "schools/sere.json",
       "updatedAt": "2022-04-06"
     },
-    /*
-    {
-      "id": "robin-sage",
-      "name": "Special Forces Robin Sage Exercise",
-      "shortName": "Robin Sage",
-      "branch": "Special Forces",
-      "branches": [],
-      "location": "Camp Mackall, NC",
-      "duration": "~4 weeks",
-      "difficulty": "Extreme",
-      "description": "An unconventional warfare exercise conducted across North Carolina, where Special Forces candidates train to work with a guerrilla force, plan missions, and execute real-world scenarios in a simulated resistance environment.",
-      "imageKey": "robin-sage",
-      "dataFile": "schools/robin-sage.json",
-      "updatedAt": "2026-17-2026"
-    },
-    */
+    
     {
       "id": "sage-detail",
       "name": "Robin Sage Detail",
