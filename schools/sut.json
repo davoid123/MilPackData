@@ -202,30 +202,7 @@
           "links": [],
           "recommendedProducts": []
         },
-        {
-          "id": "sut-cif8",
-          "name": "Canteens (1QT x2 and 2QT x2)",
-          "description": "CIF-issued 1-quart and 2-quart canteens with covers",
-          "quantity": 4,
-          "category": "required",
-          "notes": null,
-          "whyNeeded": "Hydration is survival. All canteens and covers must be CIF issue.",
-          "selectionTips": "Plus canteen cups. CamelBak is additionally authorized.",
-          "tags": [],
-          "priority": "normal",
-          "weight": null,
-          "links": [],
-          "recommendedProducts": [
-            {
-              "id": "hydrate-sut",
-              "name": "CamelBak BFM 3L Hydration Pack",
-              "price": "$89.99",
-              "url": "https://www.amazon.com/dp/B000F2KAHI",
-              "imageKey": "hydration",
-              "reason": "CamelBak is additionally authorized for SUT. Hands-free 3L capacity keeps you hydrated through long patrol bases without breaking from your position."
-            }
-          ]
-        },
+        
         {
           "id": "sut-cif9",
           "name": "Poncho (Camo/ACU/OCP) or CIF Small Tarp",
