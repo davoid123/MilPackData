@@ -150,6 +150,25 @@
       "imageKey": "airborne",
       "dataFile": "schools/airborne.json",
       "updatedAt": "2024-05-08"
+    },
+    {
+      "id": "test",
+      "name": "test School",
+      "shortName": "test",
+      "branch": "Special Forces",
+      "branches": [
+        "Special Forces",
+        "General Army",
+        "Psychological Operations",
+        "Civil Affairs"
+      ],
+      "location": "Fort Benning, GA",
+      "duration": "~3 weeks",
+      "difficulty": "Moderate",
+      "description": "Derborne",
+      "imageKey": "airborne",
+      "dataFile": "schools/e.json",
+      "updatedAt": "2024-05-08"
     }
   ]
 }
