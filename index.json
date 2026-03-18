@@ -8,7 +8,22 @@
   "lastUpdated": "2026-03-17",
   "description": "MilPack school packing list data — edit these JSON files to update the app without code changes.",
   "schools": [
-    
-      
+    {
+      "id": "sfas",
+      "name": "Special Forces Assessment & Selection",
+      "shortName": "SFAS",
+      "branch": "Special Forces",
+      "branches": [
+        "Special Forces"
+      ],
+      "location": "Camp Mackall, NC",
+      "duration": "24 days",
+      "difficulty": "Hard",
+      "description": "24-day assessment and selection process for Special Forces candidates.",
+      "imageKey": "sfas",
+      "dataFile": "schools/sfas.json",
+      "updatedAt": "2025-10-25"
+    }
+
   ]
 }
