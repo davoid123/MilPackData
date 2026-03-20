@@ -8,22 +8,7 @@
   "lastUpdated": "2026-03-17",
   "description": "MilPack school packing list data — edit these JSON files to update the app without code changes.",
   "schools": [
-    {
-      "id": "basic-training",
-      "name": "Basic Combat Training",
-      "shortName": "BCT",
-      "branch": "General Army",
-      "branches": [
-        "General Army"
-      ],
-      "location": "Multiple installations",
-      "duration": "10 weeks",
-      "difficulty": "Moderate",
-      "description": "10-week foundational Army training for all enlisted soldiers. Covers basic combat skills, physical fitness, weapons qualification, and Army values.",
-      "imageKey": "basic-training",
-      "dataFile": "schools/basic-training.json",
-      "updatedAt": "2026-03-17"
-    },
+    
 
     {
       "id": "sfas",
@@ -130,26 +115,6 @@
       "imageKey": "sfpc",
       "dataFile": "schools/sfpc.json",
       "updatedAt": "2024-01-22"
-    },
-
-    {
-      "id": "airborne",
-      "name": "Airborne School",
-      "shortName": "Airborne",
-      "branch": "Special Forces",
-      "branches": [
-        "Special Forces",
-        "General Army",
-        "Psychological Operations",
-        "Civil Affairs"
-      ],
-      "location": "Fort Benning, GA",
-      "duration": "~3 weeks",
-      "difficulty": "Moderate",
-      "description": "Designed to get rid of all the Dirty Nasty Legs in the military. Be the Banana Airborne",
-      "imageKey": "airborne",
-      "dataFile": "schools/airborne.json",
-      "updatedAt": "2024-05-08"
     }
 
   ]
